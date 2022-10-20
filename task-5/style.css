@@ -1,0 +1,33 @@
+html,
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+}
+
+.one {
+    background-color: rgb(27, 131, 131);
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.two {
+    background-color: blanchedalmond;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.three {
+    background-color: chocolate;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.four {
+    background-color: darkolivegreen;
+    grid-column: 1;
+    grid-row: 1;
+}
