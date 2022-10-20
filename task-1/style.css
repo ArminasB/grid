@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+    grid-area: header;
+    background-color: bisque;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(123, 87, 43);
+}
+
+footer {
+    grid-area: footer;
+    background-color: aquamarine;
+}
