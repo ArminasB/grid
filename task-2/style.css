@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 100vh;
+}
+
+.section-one {
+    background-color: blueviolet;
+    grid-column: 1 / span 4;
+}
+
+.section-two {
+    background-color: rgb(54, 102, 112);
+    grid-column: 5 / span 8;
+}
