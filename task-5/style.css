@@ -3,9 +3,6 @@ body {
     margin: 0;
     height: 100vh;
     display: grid;
-    grid-auto-flow: dense;
-    grid-auto-columns: auto;
-    grid-auto-rows: auto;
 }
 
 .one {
